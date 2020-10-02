@@ -28,6 +28,8 @@ export default function App() {
   const cancelGoalAdditionHandler = () => {
     setIsAddMode(false);
   };
+  
+  //key extractor can be added in flatlist
 
   return (
     <View style={styles.screen}>
